@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://download.pytorch.org/whl/cpu"
+verify_ssl = true
+name = "pytorch-cpu"
+
+[packages]
+torch = { version = "*", index = "pytorch-cpu" }
+torchvision =  {version = "*", index =  "pytorch-cpu" }
+transformers = "4.48.1"
+tqdm = "4.67.1"
+fastapi = "0.115.7"
+uvicorn = "0.34.0"
+pathlib = "1.0.1"
+
+[dev-packages]
+pygments = "2.19.1"
+
+[requires]
+python_version = "3.11"

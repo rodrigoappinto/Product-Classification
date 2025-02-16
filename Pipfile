@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://download.pytorch.org/whl/cpu"
+verify_ssl = true
+name = "pytorch-cpu"
+
+[packages]
+torch = { version = "*", index = "pytorch-cpu" }
+torchvision =  {version = "*", index =  "pytorch-cpu" }
+scikit-learn = "1.6.1"
+pandas = "2.2.3"
+seaborn = "0.13.2"
+matplotlib = "3.10.0"
+transformers = "4.48.1"
+tqdm = "4.67.1"
+jupyter = "1.1.1"
+nbconvert = "7.16.5"
+pathlib = "1.0.1"
+
+[dev-packages]
+ipykernel = "6.29.5"
+pygments = "2.19.1"
+
+[requires]
+python_version = "3.11"
