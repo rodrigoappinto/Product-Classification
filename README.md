@@ -1,4 +1,4 @@
-# FEVER Product Classification Project
+# Product Classification Project
 
 The objective of this assignment was to develop a Machine Learning model to do Product Classification from Amazon products and make it available through HTTP request.
 
