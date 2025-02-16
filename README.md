@@ -1,6 +1,10 @@
 # Product Classification Project
 
-The objective of this assignment was to develop a Machine Learning model to do Product Classification from Amazon products and make it available through HTTP request.
+The objective of this project was to develop a Machine Learning model to do Product Classification from Amazon products and make it available through HTTP request.
+
+Unfortunately, there is no way of sharing my pre-trained models and pre-trained dataset through git. Thus, I kindly request you to place the following [data](https://drive.google.com/file/d/1ja0R-7MAyO1FTG4XRi2TA_PIbt61Bp6g/view?usp=drive_link) folder inside the root folder of project and also the ´´´data/models´´´ folder inside of the fastapi app root folder.
+
+Thanks for understanding :)
 
 ## Dataset
 ### Observations
